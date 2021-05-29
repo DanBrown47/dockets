@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    height: 100px;
+    background-color: #1d445f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    color: white;
+  }
+  .left > * {
+    margin: 0 20px;
+  }
+  
+  .left > ul {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
