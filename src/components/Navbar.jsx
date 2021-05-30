@@ -15,10 +15,10 @@ const Navbar = () => {
                     <Link to="/" activeStyle={{ color: "white" }}>
                         Home
           </Link>
-                    <Link href="" activeStyle={{ color: "white" }}>
+                    <Link to="/" activeStyle={{ color: "white" }}>
                         Documentation
           </Link>
-                    <Link href="" activeStyle={{ color: "white" }}>
+                    <Link to="/" activeStyle={{ color: "white" }}>
                         Learn More
           </Link>
                     <Link to="/Aboutus" activeStyle={{ color: "white" }}>

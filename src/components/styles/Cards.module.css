@@ -3,18 +3,17 @@
   }
   
   .Card {
-    width: 50%;
-    height: 150px;
-    margin: 30px 0;
+    width: 40%;
+    height: 90px;
+    margin: 20px 0 0 10px ;
     padding: 25px 20px;
-    background-color: #189AB4;
-    opacity:50%;
+    background-color: #D4F1F4;
     border-radius: 20px;
     display: flex;
   }
   
   .CardBody > h3 {
-    color: rgba(0, 0, 0, 0.63);
+    color: #05445E;
   }
   
   .CardBody > p {
