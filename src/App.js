@@ -6,9 +6,9 @@ import Aboutus from "./pages/Aboutus";
 
 function App() {
   return (
-    <Router basename='/index.html'>
+    <Router>
       <Switch>
-        <Route path="/Home" component={Home} />
+        <Route path="/" component={Home} />
         <Route path="/Aboutus" component={Aboutus} />
       </Switch>
     </Router>
