@@ -1,12 +1,12 @@
 import React from "react";
 
 //CSS
-import styles from "./styles/Card.module.css";
+import styles from "./styles/Cards.module.css";
 
 //Data
 import { CardDetails } from "../contents/Cardsdetails";
 
-const Card = () => {
+const Cards = () => {
     return (
         <div className={styles.Container}>
             {CardDetails.map((data) => (
@@ -16,9 +16,9 @@ const Card = () => {
     );
 };
 
-export default Card;
+export default Cards;
 
-const CardS = ({ title }) => {
+const Card = ({ title }) => {
     return (
         <div className={styles.Card}>
             <div className={styles.CardBody}>

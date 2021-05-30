@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 //CSS
 import styles from "./styles/Navbar.module.css";
 
-
 const Navbar = () => {
     return (
         <nav className={styles.container}>
