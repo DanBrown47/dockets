@@ -4,7 +4,7 @@
   
   .Card {
     width: 40%;
-    height: 90px;
+    height: 50px;
     margin: 20px 0 0 10px ;
     padding: 25px 20px;
     background-color: #D4F1F4;
@@ -14,6 +14,7 @@
   
   .CardBody > h3 {
     color: #05445E;
+    
   }
   
   .CardBody > p {
